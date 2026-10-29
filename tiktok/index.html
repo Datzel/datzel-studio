@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Datzel Studio · TikTok</title>
+<style>body{max-width:640px;margin:48px auto;padding:0 16px;font:16px/1.6 system-ui,sans-serif;color:#1c1b19}</style>
+</head><body>
+<p>Volviendo a Datzel Studio…</p>
+<script>
+// TikTok no permite volver a localhost: esta página reenvía la respuesta a la app que corre en la computadora del dueño.
+location.replace("http://localhost:4321/auth/tiktok/callback" + location.search);
+</script>
+</body></html>
